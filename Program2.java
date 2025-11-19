@@ -1,11 +1,12 @@
 2. Develop a stack class to hold a maximum of 10 integers with suitable methods. Develop a JAVA main
 method to illustrate Stack operations.
 
+import java.util.Scanner;
+
 class IntStack {
     private int[] arr = new int[10];
     private int top = -1;
 
-    // Push method
     public void push(int value) {
         if (isFull()) {
             System.out.println("Stack Overflow. Cannot push " + value);
@@ -15,39 +16,22 @@ class IntStack {
         }
     }
 
-    // Pop method
-    public int pop() {
+    public void pop() {
         if (isEmpty()) {
             System.out.println("Stack Underflow. Cannot pop.");
-            return -1; // or throw an exception
         } else {
-            int value = arr[top--];
-            System.out.println("Popped: " + value);
-            return value;
+            System.out.println("Popped: " + arr[top--]);
         }
     }
 
-    // Peek method
-    public int peek() {
+    public void peek() {
         if (isEmpty()) {
             System.out.println("Stack is empty.");
-            return -1;
         } else {
-            return arr[top];
+            System.out.println("Top element: " + arr[top]);
         }
     }
 
-    // isEmpty method
-    public boolean isEmpty() {
-        return top == -1;
-    }
-
-    // isFull method
-    public boolean isFull() {
-        return top == 9;
-    }
-
-    // Display stack elements
     public void display() {
         if (isEmpty()) {
             System.out.println("Stack is empty.");
@@ -58,25 +42,53 @@ class IntStack {
             System.out.println();
         }
     }
-}
 
-//main
-public class Main {
-    public static void main(String[] args) {
-        IntStack stack = new IntStack();
+    public boolean isEmpty() {
+        return top == -1;
+    }
 
-        stack.push(10);
-        stack.push(20);
-        stack.push(30);
-        stack.display();
-
-        stack.pop();
-        stack.display();
-
-        System.out.println("Top element is: " + stack.peek());
-        stack.pop();
-        stack.pop();
-        stack.pop(); // This will show underflow
-        System.out.println("Is stack empty? " + stack.isEmpty());
+    public boolean isFull() {
+        return top == 9;
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        IntStack stack = new IntStack();
+        int choice;
+        do {
+            System.out.println("\n------ Stack Operations ------");
+            System.out.println("1. Push");
+            System.out.println("2. Pop");
+            System.out.println("3. Peek");
+            System.out.println("4. Display stack");
+            System.out.println("5. Exit");
+            System.out.print("Enter your choice: ");
+            choice = sc.nextInt();
+
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter integer to push: ");
+                    int val = sc.nextInt();
+                    stack.push(val);
+                    break;
+                case 2:
+                    stack.pop();
+                    break;
+                case 3:
+                    stack.peek();
+                    break;
+                case 4:
+                    stack.display();
+                    break;
+                case 5:
+                    System.out.println("Exiting program.");
+                    break;
+                default:
+                    System.out.println("Invalid choice. Try again.");
+            }
+        } while (choice != 5);
+    }
+}
+
