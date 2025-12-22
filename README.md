@@ -17,4 +17,8 @@ PPT-[https://docs.google.com/presentation/d/1TdykgbPKWrQIfhTSkJbKssmz8gcGA0aG/ed
 
 [6](https://drive.google.com/file/d/1DK7X3Ns5F3rd_P0PLKAe9fPUSGZ89FXs/view?usp=sharing)
 
+[7](https://drive.google.com/file/d/1M9aNZAiFPugMd9wCi788E38vB7byhTxT/view?usp=drive_link)
+
+[8](https://drive.google.com/file/d/1LP85e-euWqrgBOS1LRoKuLAjbTDwIPC5/view?usp=drive_link)
+
 [ALL Lab Programs ](https://drive.google.com/drive/folders/1SR20tfVCkovMRgq2HerSrbe-dWgjw0mA?usp=sharing)
