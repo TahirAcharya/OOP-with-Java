@@ -23,4 +23,10 @@ PPT-[https://docs.google.com/presentation/d/1TdykgbPKWrQIfhTSkJbKssmz8gcGA0aG/ed
 
 [9](https://drive.google.com/file/d/1jI7iz6YOgi1tqLs-iceShusMcibWgHC8/view?usp=drivesdk)
 
+[10](https://drive.google.com/file/d/1NqMQN3agOqAKEfkLb18ojgDpMwdrl7L9/view?usp=drivesdk)
+
+[11](https://drive.google.com/file/d/1shbsMRSUejD6uBPTl-NEODulnm2kXE77/view?usp=drivesdk)
+
+[12](https://drive.google.com/file/d/1ZGNNHl6_l-B9xaLcoGy8_sqlFD8aLvWg/view?usp=drivesdk)
+
 [ALL Lab Programs ](https://drive.google.com/drive/folders/1SR20tfVCkovMRgq2HerSrbe-dWgjw0mA?usp=sharing)
