@@ -1,5 +1,5 @@
 # OOP-with-Java
-PPT-[https://docs.google.com/presentation/d/1TdykgbPKWrQIfhTSkJbKssmz8gcGA0aG/edit?usp=sharing&ouid=102189640680844426038&rtpof=true&sd=true](Link)
+[PPT](https://docs.google.com/presentation/d/1TdykgbPKWrQIfhTSkJbKssmz8gcGA0aG/edit?usp=sharing&ouid=102189640680844426038&rtpof=true&sd=true)
 
 
 [Link](https://docs.google.com/presentation/d/1oRZ9tw1vHx84MLZ9KEM42SoyMNnB5UZp/edit?usp=sharing&ouid=102189640680844426038&rtpof=true&sd=true)
